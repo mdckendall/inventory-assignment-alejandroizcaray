@@ -76,6 +76,7 @@ class Inventory {
         break;
           }
           }while(!choice.equals("5"));
+      scanner.close();
     }
      }
   }
