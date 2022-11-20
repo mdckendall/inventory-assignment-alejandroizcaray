@@ -15,9 +15,9 @@ class Inventory {
     this.serialNumber = serialNumber;
     this.value = value;
   }
-
+}
   class Main {
-    public void main(String[] args) {
+    public static void main(String[] args) {
     String name;
     String serialNumber;
     int value;
@@ -79,7 +79,7 @@ class Inventory {
       scanner.close();
     }
      }
-  }
+  
       
       
     
