@@ -63,6 +63,7 @@ class Inventory {
             list.get(i).name = newName;
             System.out.println("Enter the new value in dollars (whole number):");
             int newValue = scanner.nextInt();
+            scanner.nextLine();
             list.get(i).value = newValue;
           }
         }
