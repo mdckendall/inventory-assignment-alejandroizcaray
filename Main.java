@@ -17,7 +17,7 @@ class Inventory {
   }
 
   class Main {
-    public static void main(String[] args) {
+    public void main(String[] args) {
     String name;
     String serialNumber;
     int value;
