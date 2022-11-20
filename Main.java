@@ -44,7 +44,7 @@ class Inventory {
       break;
 
       case "2":
-      System.out.println("Enter the serial number of the of the item to delete:");
+      System.out.println("Enter the serial number of the item to delete:");
       String p = scanner.nextLine();
         for (int i = 0; i < list.size(); i++){
           if (list.get(i).serialNumber.equals(p)) {
