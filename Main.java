@@ -33,7 +33,7 @@ class Inventory {
     choice = scanner.nextLine();
     switch(choice) {
       case "1":
-      System.out.println("Enter a name:");
+      System.out.println("Enter the name:");
       name = scanner.nextLine();
       System.out.println("Enter the serial number:");
       serialNumber = scanner.nextLine();
